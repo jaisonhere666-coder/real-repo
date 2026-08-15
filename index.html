@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaison V Thomas — Finance & Ops Analyst</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="stars"></canvas>
+
+<div class="wrap">
+  <nav>
+    <div class="brand"><span class="arrow">‹</span> Jaison <span class="arrow">/</span> Thomas <span class="arrow">›</span></div>
+    <div class="burger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <section class="hero" style="border:none; padding-top:0;">
+    <div class="avatar-ring">JT</div>
+    <h1>Hi, I am<span class="accent">Jaison V Thomas</span></h1>
+    <div class="role-line">I am a <span id="typed"></span><span class="cursor">&nbsp;</span></div>
+    <p class="desc">
+      Finance & Operations Analyst at Lowe's India. I build the automation that
+      sits between broken invoices and closed books — Python bots, Power BI
+      dashboards, and Oracle Cloud pipelines.
+    </p>
+    <a class="cta" href="#work">See my work</a>
+
+    <div class="stat-row">
+      <div class="stat"><div class="num">200+</div><div class="lbl">Invoices/day automated</div></div>
+      <div class="stat"><div class="num">5+</div><div class="lbl">Automation builds</div></div>
+      <div class="stat"><div class="num">CMA</div><div class="lbl">US — in progress</div></div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="eyebrow">// projects</div>
+    <h2>What I've built</h2>
+
+    <div class="card">
+      <h3>SC Invoice Error Dashboard</h3>
+      <p>Star-schema Power BI dashboard tracking ServiceChannel and Oracle Cloud
+      invoice errors, with a full DAX measure library so ops leads can filter by
+      store or vendor instead of waiting on a static monthly report.</p>
+      <div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Star Schema</span></div>
+      <div class="result">→ Replaced a manual monthly reporting cycle</div>
+    </div>
+
+    <div class="card">
+      <h3>invoice_bot.py</h3>
+      <p>Selenium bot driving Edge in remote-debugging mode to auto-pull
+      ServiceChannel reports — no more manual downloads every morning.</p>
+      <div class="tags"><span class="tag">Python</span><span class="tag">Selenium</span></div>
+      <div class="result">→ Removed a daily manual task</div>
+    </div>
+
+    <div class="card">
+      <h3>PAR Mismatch Resolution</h3>
+      <p>Power Automate Desktop flows resolving purchase-and-receive mismatches
+      across Capital, Expense, and Janitorial invoice data.</p>
+      <div class="tags"><span class="tag">Power Automate</span><span class="tag">Power Query</span></div>
+      <div class="result">→ ~200 invoices/day, no manual review</div>
+    </div>
+
+    <div class="card">
+      <h3>ACCR + PAID Report Automation</h3>
+      <p>Python script replacing a manual monthly process of merging four Journal
+      Entry Detail files with REFERENCE-sheet lookups into a clean pivot summary.</p>
+      <div class="tags"><span class="tag">Python</span><span class="tag">Journal Entries</span></div>
+      <div class="result">→ Multi-file close task cut to one script run</div>
+    </div>
+
+    <div class="card">
+      <h3>LedgerLad</h3>
+      <p>Client-side invoice analysis tool — no server, no uploads — built with
+      SheetJS and Chart.js for instant in-browser inspection.</p>
+      <div class="tags"><span class="tag">SheetJS</span><span class="tag">Chart.js</span></div>
+      <div class="result">→ Zero-upload invoice analysis</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">// stack</div>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-box"><h4>Automation</h4><div class="items">Python · Selenium · Power Automate · VBA</div></div>
+      <div class="skill-box"><h4>Reporting & BI</h4><div class="items">Power BI · DAX · Power Query · Excel</div></div>
+      <div class="skill-box"><h4>Finance Systems</h4><div class="items">Oracle Cloud · Alteryx · GAAP/IFRS</div></div>
+      <div class="skill-box"><h4>Domain</h4><div class="items">AP Automation · Accruals · MIS · GST/TDS</div></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="eyebrow" style="justify-content:center; display:flex;">// contact</div>
+    <h2>Let's talk</h2>
+    <p class="desc" style="margin-top:10px;">Open to FP&A roles, automation builds, or anything that starts with "this report takes us three days a month."</p>
+    <div class="contact-links">
+      <a href="mailto:you@example.com">Email</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://github.com" target="_blank">GitHub</a>
+    </div>
+    <div class="foot-note">Bengaluru, Karnataka · 2026</div>
+  </footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
